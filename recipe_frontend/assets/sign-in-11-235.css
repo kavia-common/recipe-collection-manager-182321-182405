@@ -297,7 +297,7 @@
 .home-indicator .pill {
   position: absolute;
   left: 120px; /* 546-426 */
-  top:  -?; /* Compute below in HTML inline for exact */
+  top:  21px; /* computed inline in HTML for exact position */
   width: 135px; height: 5px;
   background-color: var(--style-32-bg);
   border-radius: var(--style-32-radius);
