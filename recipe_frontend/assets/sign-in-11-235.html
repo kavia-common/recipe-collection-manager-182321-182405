@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign In - 11-235</title>
+  <meta name="viewport" content="width=375, initial-scale=1.0">
+  <link rel="stylesheet" href="./common.css">
+  <link rel="stylesheet" href="./sign-in-11-235.css">
+</head>
+<body>
+  <div class="screen-sign-in-11-235">
+    <!-- Status Bar -->
+    <div class="status-bar">
+      <div class="symbols">
+        <div class="battery">
+          <!-- battery body and border shapes (opacity handled by SVGs) -->
+          <img class="rect" src="figmaimages/figma_image_13_71_128_307.svg" alt="Battery Border" style="position:absolute;left:0;top:0;width:22px;height:11.5px;">
+          <img class="cap" src="figmaimages/figma_image_13_71_128_306.svg" alt="Battery Cap" style="position:absolute;left:23px;top:3.69px;width:1.5px;height:4px;">
+          <img class="battery-fill" src="figmaimages/figma_image_13_71_128_309.svg" alt="Battery Fill" style="position:absolute;left:2px;top:2.08px;width:18px;height:7.6667px;">
+        </div>
+        <div class="cellular">
+          <img class="bar1" src="figmaimages/figma_image_13_71_128_311.svg" alt="Cellular Bar 1">
+          <img class="bar2" src="figmaimages/figma_image_13_71_128_312.svg" alt="Cellular Bar 2">
+          <img class="bar3" src="figmaimages/figma_image_13_71_128_313.svg" alt="Cellular Bar 3">
+          <img class="bar4" src="figmaimages/figma_image_13_71_128_314.svg" alt="Cellular Bar 4">
+        </div>
+        <div class="wifi">
+          <!-- Vector-only paths: approximated as decorative, omitted images as no path asset provided -->
+        </div>
+      </div>
+      <div class="time">19:27</div>
+    </div>
+
+    <!-- Title -->
+    <div class="title-group">
+      <div class="hello">Hello,</div>
+      <div class="welcome">Welcome Back!</div>
+    </div>
+
+    <!-- Input Email -->
+    <div class="input-email">
+      <div class="label">Email</div>
+      <div class="rect"></div>
+      <div class="placeholder">Enter Email</div>
+    </div>
+
+    <!-- Input Password -->
+    <div class="input-password">
+      <div class="label">Enter Password</div>
+      <div class="rect"></div>
+      <div class="placeholder">Enter Password</div>
+    </div>
+
+    <!-- Forgot Password -->
+    <div class="forgot-password">Forgot Password?</div>
+
+    <!-- Divider -->
+    <div class="divider">
+      <div class="line-left"></div>
+      <div class="text">Or Sign in With</div>
+      <div class="line-right"></div>
+    </div>
+
+    <!-- Social Buttons -->
+    <div class="btn-google" aria-label="Sign in with Google">
+      <img class="bg" src="figmaimages/figma_image_13_36.svg" alt="Google Button Background" style="width:44px;height:44px;">
+      <div class="google-icon" role="img" aria-label="Google Icon">
+        <img src="figmaimages/figma_image_13_39.svg" alt="Google Vector 1" style="position:absolute;left:2px;top:2px;width:20px;height:20px;">
+        <!-- Additional Google vectors in JSON without imagePath are stylistic fills; primary visible glyph included -->
+        <img src="figmaimages/figma_image_13_42.svg" alt="Google Vector 2" style="position:absolute;left:12px;top:10px;width:10px;height:9.414px;">
+      </div>
+    </div>
+
+    <div class="btn-facebook" aria-label="Sign in with Facebook">
+      <img class="bg" src="figmaimages/figma_image_13_36.svg" alt="Facebook Button Background" style="width:44px;height:44px;">
+      <img class="facebook-icon" src="figmaimages/figma_image_13_61.svg" alt="Facebook Icon" style="width:24px;height:24px;">
+    </div>
+
+    <!-- Primary Sign In Button -->
+    <button class="button-primary" type="button" id="btnSignIn">
+      <span class="label">Sign In</span>
+      <img class="arrow" src="figmaimages/figma_image_54_668_53_625.svg" alt="Arrow Right">
+    </button>
+
+    <!-- Signup Text -->
+    <div class="signup-text">Don’t have an account? Sign up</div>
+
+    <!-- Home Indicator -->
+    <div class="home-indicator" aria-hidden="true">
+      <div class="pill" style="left:120px; top:21px; width:135px; height:5px; background-color: var(--style-32-bg); border-radius: var(--style-32-radius);"></div>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+  <script src="./sign-in-11-235.js"></script>
+</body>
+</html>
